@@ -1,39 +1,29 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
-
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
-  
-</head>
-<body>
-  <h1 class="titulo">Código Secreto</h1>
-
-  <main class="main">
-    <section class="form box" >
-      <form action="" id="seccion">
-        <div class="divCartel1">  
-          <label for="input-texto">Solo letras minúsculas, sin acento</label>
-        </div>
-        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
-        <input class="btn" type="submit" value="Encriptar!" id="btn-encriptar">
-        <input class="btn1" type="submit" value="Desencriptar!" id="btn-desencriptar">
-      </form>
-    </section>
-  
-    <section class="msg box">
-      <div class="divCartel2"> 
-        <label for="input-texto"> Mensaje Encriptado: </label>
-      </div>
-      <input class="text-input2" type="text" id="msg"></input>
-      <input class="btn2" type="submit" value="Copiar" id="btn-copy">
-    </section>
-  </main>
-
-  <script src="js/script.js"></script>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="css//style.css">
+  </head>
+  <body>
+    <div style="text-align:center; margin: 50px 0px;">
+      <h1 class="titulo">Ahorcado</h1>
+      <button class="btn" id="iniciar-juego">INICIAR JUEGO</button>
+      <button class="detener" id="detener-juego">DETENER JUEGO</button>
+    </div>
+    <div style="text-align:center">
+      <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Escriba una nueva palabra">
+      <button class="btn" id="nueva-palabra">AGREGAR PALABRA</button> 
+    </div>
+    <div style="text-align:center;" class="divCanvas" id="espacioCanvas">
+      <canvas class="ahorcado" width="1700px" height="700px" ></canvas>
+    </div>
+    
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/funciones.js"></script>
+    <script type="text/javascript" src="js/botones.js"></script>
+    <script type="text/javascript" src="js/canvas.js"></script>
+  </body>
 </html>

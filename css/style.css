@@ -1,147 +1,52 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F1E3DB;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.main {
-  width: 80vw;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-}
 
 .titulo {
-  font-family: 'Calibri'; 
-  font-weight: bold;
-  margin-top: 40px;
-  margin-left: 750px;
-  font-size: 45pt;
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
 
-}
-
-.divCartel1 {
-  position: relative;
-  top: 30px;
-  left: 150px;
-  color: white;
-  font-family: 'Calibri'; 
-  font-weight: bold;
-  font-size: 20pt;
-  /*background-color: #25C91D;*/
-  width: 380px;
-  height: 32px;
-}
-
-.divCartel2 {
-  position: relative;
-  top: 30px;
-  left: 240px;
-  color: white;
-  font-family: 'Calibri'; 
-  font-weight: bold;
-  font-size: 20pt;
-  /*background-color: #25C91D;*/
-  width: 380px;
-  height: 32px;
-}
-
-.box {
-  padding: 10px;
-  margin: 0 10px 0 10px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  background-color: white;
-  border-radius: 0.5em;
-  width: 700px;
-  height: 300px;
-  background: linear-gradient(90deg, black, Gray);
 }
 
 .btn {
-  border: 1;
+  margin: auto;
+  border: 0;
   color: white;
-  font-family: 'Calibri'; 
   font-weight: bold;
-  background-color: #EF7428;
-  font-size: 15pt;
-  width: 120px;
-  height: 45px;
-  margin-top: 40px;
-  margin-left: 150px;
-  border-radius: 10px 10px 10px 10px;
+  background-color: blue;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
 }
 
-.btn1 {
-  border: 1;
+.detener {
+  margin: auto;
+  border: 0;
   color: white;
-  font-family: 'Calibri'; 
   font-weight: bold;
-  background-color: #25C91D;
-  font-size: 15pt;
-  width: 140px;
-  height: 45px;
-  margin-left: 110px;
-  border-radius: 10px 10px 10px 10px;
-}
-
-.btn2 {
-  border: 1;
-  color: white;
-  font-family: 'Calibri'; 
-  font-weight: bold;
-  background-color: #29D1E2;
-  font-size: 15pt;
-  width: 140px;
-  height: 45px;
-  margin-top: 40px;
-  margin-left: 280px;
-  border-radius: 10px 10px 10px 10px;
+  background-color: blue;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+  display: none;
 }
 
 .text-input {
   border-radius: 0.5em;
-  border: 2px solid;
-  border-color: rgba(236, 118, 118, 0.753);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   display: block;
   padding: 0.5em;
-  width: 490px;
-  height: 70px;
-  margin-top: 50px;
-  margin-left: 100px;
+  width: 30%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.text-input2 {
-  border-radius: 0.5em;
-  border: 2px solid;
-  border-color: rgba(236, 118, 118, 0.753);
+.divCanvas{
+  position: absolute;
   display: block;
-  padding: 0.5em;
-  width: 490px;
-  height: 70px;
-  margin-top: 50px;
-  margin-left: 100px;
-  color:#000000;
-  font-size: 100%;
-  font-family: 'Calibri'; 
-  font-size: 15pt;
-  font-weight: bolder;
+  width: 1700px;
+  height: 700px;
+  margin-top: 0px;
+  margin-left: 50px;
 }
-
-.crearColorInputDesencriptar{
-  background-color:#25C91D;
-}
-.crearColorInputEncriptar{
-  background: linear-gradient(90deg,#ee803c,#eca070);
-  opacity: 0.8;
-}
-.crearColorMensajeNormal{
-  background-color:#29D1E2;
-}
-
-/* EF7428 */
