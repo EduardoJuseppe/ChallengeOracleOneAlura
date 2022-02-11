@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F1E3DB;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.titulo {
+  font-family: 'Calibri'; 
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 750px;
+  font-size: 45pt;
+
+}
+
+.divCartel1 {
+  position: relative;
+  top: 30px;
+  left: 150px;
+  color: white;
+  font-family: 'Calibri'; 
+  font-weight: bold;
+  font-size: 20pt;
+  /*background-color: #25C91D;*/
+  width: 380px;
+  height: 32px;
+}
+
+.divCartel2 {
+  position: relative;
+  top: 30px;
+  left: 240px;
+  color: white;
+  font-family: 'Calibri'; 
+  font-weight: bold;
+  font-size: 20pt;
+  /*background-color: #25C91D;*/
+  width: 380px;
+  height: 32px;
+}
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 0.5em;
+  width: 700px;
+  height: 300px;
+  background: linear-gradient(90deg, black, Gray);
+}
+
+.btn {
+  border: 1;
+  color: white;
+  font-family: 'Calibri'; 
+  font-weight: bold;
+  background-color: #EF7428;
+  font-size: 15pt;
+  width: 120px;
+  height: 45px;
+  margin-top: 40px;
+  margin-left: 150px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.btn1 {
+  border: 1;
+  color: white;
+  font-family: 'Calibri'; 
+  font-weight: bold;
+  background-color: #25C91D;
+  font-size: 15pt;
+  width: 140px;
+  height: 45px;
+  margin-left: 110px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.btn2 {
+  border: 1;
+  color: white;
+  font-family: 'Calibri'; 
+  font-weight: bold;
+  background-color: #29D1E2;
+  font-size: 15pt;
+  width: 140px;
+  height: 45px;
+  margin-top: 40px;
+  margin-left: 280px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 2px solid;
+  border-color: rgba(236, 118, 118, 0.753);
+  display: block;
+  padding: 0.5em;
+  width: 490px;
+  height: 70px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.text-input2 {
+  border-radius: 0.5em;
+  border: 2px solid;
+  border-color: rgba(236, 118, 118, 0.753);
+  display: block;
+  padding: 0.5em;
+  width: 490px;
+  height: 70px;
+  margin-top: 50px;
+  margin-left: 100px;
+  color:#000000;
+  font-size: 100%;
+  font-family: 'Calibri'; 
+  font-size: 15pt;
+  font-weight: bolder;
+}
+
+.crearColorInputDesencriptar{
+  background-color:#25C91D;
+}
+.crearColorInputEncriptar{
+  background: linear-gradient(90deg,#ee803c,#eca070);
+  opacity: 0.8;
+}
+.crearColorMensajeNormal{
+  background-color:#29D1E2;
+}
+
+/* EF7428 */
